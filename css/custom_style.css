@@ -1,0 +1,36 @@
+.hide_me{
+		display:none;
+}
+.select-product-cat-wrapper .select-cat-step-wrapper .wcmp-categories-level-panel{
+	background:white;
+}
+.select-product-cat-wrapper .select-cat-step-wrapper .cat-column{
+	border:none;	
+}
+.mb15{
+	margin-bottom:15px;
+}
+.mt15{
+	margin-top:15px;
+}
+.types_sec,.medium_sec{
+	display:none;
+}
+.taxo_sec {
+	height: 330px;
+}
+.taxo_sec h3 {
+    min-height: 45px;
+}
+.taxo_sec h3 span {
+    font-size: 12px;
+}
+.taxo_sec .panel-body {
+    min-height: 240px;
+}
+
+label.error,.taxo_error {
+    color: #ff0000;
+    clear: both;
+    font-size: 13px;
+}
