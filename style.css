@@ -1,0 +1,337 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+body {
+    letter-spacing: 0.5px;
+}
+
+.extra_info h4{
+	font-weight:bold;
+}
+
+.tab_links ul {
+    list-style: none;
+    margin: 0;
+}
+
+.tab_links ul li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.tab_links ul li a {
+    font-weight: 600;
+}
+.tab_link.active{
+	color:#dd2b2b;
+	border-bottom:1px solid #dd2b2b;
+}
+
+.tab_content.active {
+    display: block;
+}
+.tab_content {
+    display: none;
+}
+.text-center{
+	text-align:center;
+}
+.extra_info p {
+    line-height: 20px;
+    font-weight: 300;
+}
+.wcmp_vendor_banner_template {
+    border: none !important;
+}
+.archive.tax-dc_vendor_shop .woocommerce-breadcrumb{
+	display:none;
+}
+
+.ec_overlap{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.7);
+	display:none;
+	top: 0;
+    left: 0;
+    z-index: 99;
+}
+.ec_popup{
+	display:none;
+	background-color:#fff;
+	width: 750px;
+	height:500px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid #000;
+}
+.ec_popup_content{
+	padding:15px;
+	max-height: 470px;
+    overflow-x: auto;
+}
+.ec_popup_content h3{
+	text-align:center;
+	background: #000;
+    padding: 10px;
+    color: #fff;
+}
+.ec_close_me{
+	position: absolute;
+    right: -10px;
+    top: -10px;
+    background: #fff;
+    /* border: 1px solid #000; */
+    padding: 5px 13px;
+    border-radius: 50%;
+}
+
+.left-sec{
+	float:left;
+	width: 48%;
+    margin-right: 2%;
+    font-weight:600;
+}
+.reight-sec {
+    float: left;
+    width: 50%;    
+}
+.full-sec {
+    clear: both;
+    width: 100%;
+}
+.button {
+    border-radius: 10px !important;
+}
+a.button.ec_request_quote {
+	color: #ffffff !important;
+    background-color: #000 !important;
+    border-radius: 10px !IMPORTANT;
+    margin-top: 15px !important;
+}
+.black-button{
+    color: #ffffff !important;
+    background-color: #000 !important;
+    border-radius: 10px !IMPORTANT;
+    padding:14px 20px !important;
+}
+a.button.ec_request_quote:hover{
+	background-color:#6d6d6d !important;
+}
+.black-button:hover{
+	background-color:#6d6d6d !important;
+}
+.ec_note{
+	font-size:11px;
+}
+table.quote-form-data, table.quote-form-data tr, table.quote-form-data tr td, table.quote-form-data tr th {
+    border: none !important;
+}
+table.quote-form-data tr th {
+    width: 35%;
+}
+.quote-form-data{
+
+}
+.ec_error{
+	color:#ff0000;
+	margin: 5px auto;
+}
+
+.full-sec label.error {
+    display: block;
+    color: #ff0000;
+}
+
+.archive .woof_container_medium{
+	display:none;
+}
+.archive .woof_container_types{
+	display:none;
+}
+form.ec_cart {
+    flex-wrap: wrap !important;
+}
+.ec_btncart{
+	background: transparent !important;
+    margin: 0 auto !important;
+    width: 100%;
+    padding: 5px !important;
+    text-align: left !important;
+}
+.ec_btncart .fa {
+    font-size: 24px;
+    color: #64656b !important;
+}
+.ec_dimension{
+	text-align:center;
+	margin: 10px auto;
+	color:#060716;
+}
+.ec_product_author {
+    margin: 10px auto 0;
+}
+.ec_product_author a{
+	color:#060716;
+}
+.ec_product_sec {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+.ec_wish_list {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.ec_cart_sec {
+    display: inline-block !important;
+    width: 50% !important;
+    text-align: left !important;
+}
+
+.ec_wish_list a{
+	    margin: 0 auto !important;
+    font-size: 24px !important;
+    color: #64656b !important;
+    padding: 5px !important;
+    height: auto !important;
+    width: auto !important;
+    vertical-align: top !important;
+    display: inline;
+}
+.ec_wish_list a:before{
+	font-size: 32px !important;
+    color: #64656b !important;
+    position: relative !important;
+    margin: 0 auto !important;
+    top: 0 !important;
+    left: 0 !important;
+    vertical-align: top !important;
+    
+}
+
+.woocommerce ul.products li.product {
+    background: #fbfbfb !important;
+    padding-bottom:10px;
+}
+
+
+.elementor-add-to-cart p.stock{
+	display:none;
+}
+.ec_product_meta {
+    margin-bottom: 15px;
+}
+.single-product .widget_product_vendor_info h4 {
+	margin-top:10px;
+}
+.single-product .widget_product_vendor_info p {
+    display: none;
+}
+.single-product .elementor-widget-woocommerce-product-price .price {
+    margin-bottom: 0 !important;
+}
+.woocommerce-form-login.login{
+	width:50%;
+	display: inline-block;
+    float: left;
+}
+.ec_register_sec{
+	margin-left: 15px;
+    background: #fbfbfb;
+    width: 40%;
+    float: right;
+    display: inline-block;
+    padding: 10% 3%;
+}
+.ec_register_sec h4 {
+    font-size: 22px;
+    margin-bottom: 10px !important;
+}
+.ec_register_sec a{
+	color:#dd2b2b;
+	font-size:18px;
+}
+
+.link-red{
+	color:#dd2b2b !important;
+}
+
+.link-red:hover{
+	color:#6d6d6d !important;
+}
+.mb10 {
+    margin-bottom: 10px;
+}	
+.woof_container_inner h4 {
+    font-weight: 600;
+}
+.woof_container_inner label {
+    font-size: 15px;
+}
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
+    background: #888 !important;
+}
+
+.tinv-wishlist table{
+	z-index: 1 !important;
+}
+
+p.wcmp_vendor_name.artist_name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 24px;
+}
+p.wcmp_vendor_detail.artist_info {
+    font-weight: 300;
+}
+
+.pwd_error{
+	color:#dd2b2b;
+	margin-bottom:5px;
+	margin-top:10px;
+}
+.pwd_error ul {
+    margin-left: 20px;
+}
+li.product a h2,.woocommerce-MyAccount-navigation a,li.product a,li.product a:before, .woocommerce-MyAccount-navigation  a:visited {
+    color: #64656b !important;
+}
+
+li.product a:hover, li.product a:hover h2, li.product a:hover:before, .ec_btncart:hover i:before, .woocommerce-MyAccount-navigation a:hover{
+    color: #dd2b2b !important;
+}
+
+.ec-search-sec {
+    display: inline-block;
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.ec-search-sec label {
+    width: auto;
+    font-weight: 600;
+    font-size: 18px;
+    float: left;
+    display: inline-block;
+}
+.ec-search-sec button{
+    margin-left: 10px;
+    float: right;
+}
